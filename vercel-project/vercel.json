@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/uploads/:key", "destination": "/api/file?key=:key" },
+    { "source": "/api/images/:key", "destination": "/api/images?key=:key" }
+  ]
+}
